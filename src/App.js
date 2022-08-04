@@ -1,28 +1,19 @@
-function Navbar() {
-  return (
-    <nav className="nav">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Portfolio</li>
-      </ul>
-    </nav>
-  )
-}
-
-function MainContent() {
-  return (
-    <div>
-      <h1 className="title">Bul jerde content</h1>
-    </div>
-  )
-}
-
 function App() {
+ /*  <script>
+    function addArtistNameToBody() {
+      const bodyTag = document.querySelector("#root");
+    const divTag = document.createElement("div");
+    let h1Tag = document.createElement("h1");
+    h1Tag.innerText = "Mitski";
+    divTag.append(h1Tag);
+    bodyTag.append(divTag);
+  }
+
+    addArtistNameToBody();
+  </script> */
   return (
     <div className="container">
-      <Navbar />
-      <MainContent/>
+      <h1>Mitski</h1>
     </div>
   );
 }

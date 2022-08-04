@@ -15,18 +15,3 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-
-.nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.nav ul li {
-    margin-right: 5px;
-}
-
-.title {
-    text-align: center;
-}
