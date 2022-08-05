@@ -1,9 +1,10 @@
 function Header() {
     return (
-        <header>
-            <img src="/img/react-logo.png" width="40px" />
-            <h1>Fun facts about React</h1>
-        </header>
+        <nav>
+            <img src="/img/react-logo.png" className="nav--icon" />
+            <h3 className="nav--logo_text">ReactFacts</h3>
+            <h4 className="nav--title">React Course - Project 1</h4>
+        </nav>
     )
 }
 

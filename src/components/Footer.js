@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer style={{marginTop:'20px'}}>
+        <footer>
             Simple Static page
         </footer>
     )
